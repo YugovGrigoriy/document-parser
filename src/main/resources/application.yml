@@ -1,0 +1,7 @@
+scan:
+  millis: 1
+directory:
+  path:
+    scanned: "directoryScan/inBox"
+    target: "directoryScan/inProgress"
+    duplicate: "directoryScan/duplicate"
