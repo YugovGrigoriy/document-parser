@@ -1,5 +1,5 @@
 scan:
-  millis: 1
+  millis: 10000
 directory:
   path:
     scanned: "directoryScan/inBox"
