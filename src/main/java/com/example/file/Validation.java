@@ -1,6 +1,5 @@
 package com.example.file;
 
-import com.example.file.dto.PaymentEntryDto;
 import org.springframework.stereotype.Component;
 
 /*
