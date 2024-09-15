@@ -1,7 +1,19 @@
 scan:
-  millis: 10000
+  millis: 3000
 directory:
   path:
     scanned: "directoryScan/inBox"
     target: "directoryScan/inProgress"
     duplicate: "directoryScan/duplicate"
+    successful: "directoryScan/successful"
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/customs payments
+    username: main-root
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
