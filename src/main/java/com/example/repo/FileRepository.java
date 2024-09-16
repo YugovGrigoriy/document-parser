@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface FileRepository extends JpaRepository<PaymentEntryDto, Long> {
-    @Query(value = "INSERT INTO payment_table_error (name) VALUES (:payment)", nativeQuery = true)
-    void insertExample(@Param("payment") String name);
+    @Query(value = "INSERT INTO payment_table_error (payment) VALUES (:payment)", nativeQuery = true)
+    void insertExample(@Param("payment") String payment);
 
 }
