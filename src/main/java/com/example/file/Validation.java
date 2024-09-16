@@ -29,17 +29,6 @@ public class Validation {
         return true;
     }
 
-//    public boolean validate2(PaymentEntryDto paymentEntryDto){
-//        if(paymentEntryDto.getRecordNumber().length()!=12){
-//           return false;
-//        }
-//        if(paymentEntryDto.getPayerINN().length()!=12){
-//            return false;
-//        }
-//        if(paymentEntryDto.getPaymentID().length()!=50){
-//            return false;
-//        }
-//
-//    }
+
 
 }
