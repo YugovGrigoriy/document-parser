@@ -7,6 +7,9 @@ directory:
     duplicate: "directoryScan/duplicate"
     successful: "directoryScan/successful"
 spring:
+  sql:
+    init:
+      mode: always
   datasource:
     url: jdbc:postgresql://localhost:5432/customs payments
     username: main-root
